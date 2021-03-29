@@ -1,14 +1,44 @@
 html {
   box-sizing: border-box;
-  font-style: sans-serif;
+  font-family: sans-serif;
+  line-height: 1.5;
+  background-color: #fff;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
-image {
-  width: 100%;
+img {
+  width: 2rem;
 }
 
-@media only screen and (min-width: 40em)
+@media only screen and (min-width: 40em) {
+
+}
+
+h1 {
+  font-size: auto;
+}
+
+p, nav {
+  font-size: 1.125rem;
+}
+
+body {
+  flex-direction: row;
+}
+
+ul {
+  color: #0074d9;
+}
+
+.banner {
+  border-color: #e2e2e2;
+}
+
+header {
+display: flex;
+  flex-direction: row;
+  justify-content: space-after;
+}
