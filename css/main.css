@@ -12,18 +12,11 @@ img {
   width: 2rem;
 }
 
-@media only screen and (min-width: 40em) {
-
-  header {
-    flex-direction: row;
-    justify-content: space-between;
-  }
-
 p, nav {
   font-size: 1.125rem;
 }
 
-nav, ul {
+nav ul {
   list-style-type: none;
   display: flex;
   padding: 0;
@@ -37,7 +30,6 @@ nav a {
 body {
   margin: 0;
 }
-
 
 .banner {
   border-color: #e2e2e2;
@@ -66,4 +58,13 @@ header p {
 a:hover {
   border-color: #0074d9;
   background-color: #fff;
+}
+
+@media only screen and (min-width: 40em) {
+
+  header {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
 }
